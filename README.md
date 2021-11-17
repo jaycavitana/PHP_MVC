@@ -1,8 +1,17 @@
-# PHP_MVC
-A custom MVC framework developed from scratch using PHP. 
+# PETRA API
 
-Instructions:
+Change config file in app > config > config.php 
+a. Database configuration 
+b. API Keys
+c. URL Root 
+d. Firebase URL
 
-1. Make sure all constants declared in the app/config/config.php file matches your current development environment.
+View references:
 
-2. Check the .htaccess file inside the public folder. Change 'RewriteBase /PHP-MVC-framework/public' depending on your current project url.
+FIREBASE 
+https://firebase.google.com/products/realtime-database?gclid=Cj0KCQjw-O35BRDVARIsAJU5mQV0T6qCA9p-D5IpdbWux-PwMI8qv0HKyEOAschlqBda2OsvH7dhzvEaAp2cEALw_wcB
+
+GOOGLE MAPS: 
+https://developers.google.com/maps/documentation
+
+Public > .htaccess: Rewrite line 4 to match your local directory

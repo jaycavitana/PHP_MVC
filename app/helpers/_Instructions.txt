@@ -1,0 +1,22 @@
+This folder contains helpers
+
+Helpers -> set of functions which can be used for a certain task or responsibility
+Examples
+    a. session_helper
+    b. upload_helper
+    c. etc
+
+========================================================
+
+Sample code for a session_helper
+
+<?php
+    session_start();
+
+    //this contains functions related to sessions
+
+    //check if user is logged in
+    //this is to be called on the constructors of pages which are restricted to logged in users
+    function isLoggedIn(){
+        return isset($_SESSION['user_id']);
+    }
