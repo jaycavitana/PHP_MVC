@@ -7,13 +7,11 @@
  */
 
 class Core {
-    protected $currentController = 'Pages';
+    protected $currentController = 'API_Default';
     protected $currentMethod = 'index';
     protected $params = [];
 
     public function __construct(){
-        //print_r($this->getUrl());
-
         $url = $this->getUrl();
 
         //Look in controllers for first index
@@ -40,6 +38,9 @@ class Core {
 
                 //Unset index 1
                 unset($url[1]);
+            }
+            else{
+                $this->currentMethod = 'index_details'; 
             }
         }
 
