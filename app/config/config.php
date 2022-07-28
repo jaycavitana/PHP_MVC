@@ -1,12 +1,12 @@
 <?php
     //DB Config
-    define('DB_HOST', 'us-cdbr-east-04.cleardb.com');
-    define('DB_USER', 'b78814eee127b4');
-    define('DB_PASSWORD', '681fd4f7');
-    define('DB_NAME', 'heroku_54b8ea6a6bed556');
+    define('DB_HOST', '');
+    define('DB_USER', '');
+    define('DB_PASSWORD', '');
+    define('DB_NAME', '');
 
     //API Authentication
-    define('SECRET_KEY', "s&i}J9S9b'C8My<Q");
+    define('SECRET_KEY', "");
     
     //App root
     define('APPROOT', dirname(dirname(__FILE__)));
@@ -14,16 +14,16 @@
     date_default_timezone_set('Asia/Manila');
 
     //EMAIL
-    define('EMAIL_ADDRESS', 'growappdev@gmail.com');
-    define('EMAIL_PASSWORD', 'GrowappDev2021');
-    define('EMAIL_SENDER', 'GrowApp PH');
-    define('EMAIL_ADDRESS_ADMIN', 'jaypcavitana@gmail.com');
+    define('EMAIL_ADDRESS', '');
+    define('EMAIL_PASSWORD', '');
+    define('EMAIL_SENDER', '');
+    define('EMAIL_ADDRESS_ADMIN', '');
 
     //S3 BUCKETEER
     define('S3_REGION', 'us-east-1');
-    define('S3_KEY', 'AKIARVGPJVYVJNUNCSNV');
-    define('S3_SECRET', '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');
-    define('S3_BUCKETNAME', 'bucketeer-7953b4f6-162f-4505-850d-7618c5aba2be');
+    define('S3_KEY', '');
+    define('S3_SECRET', '');
+    define('S3_BUCKETNAME', '');
 
     //Firebase
     /*
@@ -33,11 +33,11 @@
 
     //Semaphore
     /*
-    define('SEMAPHORE_APIKEY', 'b156ee04aebb3c5a66a4d8778583cfa0');
+    define('SEMAPHORE_APIKEY', '');
     define('SEMAPHORE_SENDERNAME', '');
     */
 
     //Google
     /* 
-    define('MAPS_API_KEY', "AIzaSyCbjVkJckH7a4ZQLi64zsAQYpM_tihAXP8");
+    define('MAPS_API_KEY', "");
     */
